@@ -1,0 +1,50 @@
+/*  Donglin Lao
+    Account: jadrn021
+    CS545, Fall 2016
+    Project #3
+*/
+
+body,html{
+    background-color: gainsboro;
+}
+
+h1 {
+    margin-bottom: 5px;
+    overflow: hidden;
+    text-align:center;
+    font-weight: bold;
+    font-size: 50px;
+}  
+
+div.main{
+    position:relative;
+    background-color: white;
+    min-width: 1000px; 
+    max-width: 1000px;
+    margin: auto;
+    border: 3px solid black;
+    padding:20px;
+   
+}
+
+
+table {
+min-width: 1000px; 
+    max-width: 1000px;
+    width: 80%;
+    margin: auto;
+    border-collapse: collapse;
+    font-family: arial;
+    font-size: 120%;
+    text-align: center;
+    }
+    
+th,td {
+    border: 1px solid #AAA;
+    padding: 5px;
+    }
+    
+tr:nth-child(even) {
+    background-color: #CCC;
+    }
+

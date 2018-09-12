@@ -1,0 +1,37 @@
+use jadrn021;
+
+drop table if exists person;
+
+create table person(
+    id int AUTO_INCREMENT PRIMARY KEY,
+    fname varchar(50) NOT NULL,
+    mname varchar(50) NULL,
+    lname varchar(50) NOT NULL,
+    gender varchar(6) NOT NULL,
+    month varchar(2) NOT NULL,
+    day varchar(2) NOT NULL,
+    year varchar(6) NOT NULL,
+    address varchar(100) NOT NULL,
+    address2 varchar(100) NULL,
+    city varchar(30) NOT NULL,
+    state char(2) NOT NULL,
+    zip char(5) NOT NULL,
+    area_phone char(3) NOT NULL,
+    prefix_phone char(3) NOT NULL,
+    phone char(4) NOT NULL,
+    email varchar(50) NOT NULL,
+    category varchar(6) NOT NULL,
+    experience varchar(11) NOT NULL,
+    pic varchar(50) NOT NULL,
+    medical_condition varchar(50) NULL);
+    
+INSERT INTO person VALUES(0,'Jim','','Gerald','male','11','15','1999','3456 30th St','','San Diego','CA','92104','123','123','1234','jrobeson@yahoo.com','teen','novice','asdf.jpg','none');
+INSERT INTO person VALUES(0,'Jerry','','Chen','male','6','23','1977','3456 30th St','','San Diego','CA','92104','123','123','1234','jchen@gmail.com','adult','novice','qwer.jpg','diabetic');
+INSERT INTO person VALUES(0,'Alan','','Ditto','male','5','15','1956','3456 30th St','','San Diego','CA','92104','123','123','1234','aditto@yahoo.com','senior','novice','what.jpg','foot');
+INSERT INTO person VALUES(0,'Jess','','Chang','female','11','5','2003','3456 30th St','','San Diego','CA','92104','123','123','1234','jchang@yahoo.com','adult','experienced','where123.jpg','knee');
+INSERT INTO person VALUES(0,'Sarah','Henry','Joseph','female','11','15','1998','3456 30th St','','San Diego','CA','92104','123','123','1234','sjoseph@yahoo.com','teen','novice','face123.jpg','tired');
+INSERT INTO person VALUES(0,'James','','Johnson','male','11','15','1988','3456 30th St','','San Diego','CA','92104','123','123','1234','jrobeson@yahoo.com','teen','novice','tank123.jpg','old');
+INSERT INTO person VALUES(0,'LeBron','','James','male','6','18','1949','31 Champ Dr','','Cleveland','OH','63404','234','443','3131','lbj@yahoo.com','adult','novice','bleh123.jpg','none');
+INSERT INTO person VALUES(0,'Kobe','Mamba','Bryant','male','9','15','1947','3456 30th St','','Los Angeles','CA','92345','444','444','2345','kbryant@legend.com','senior','novice','champ.jpg','retired');
+INSERT INTO person VALUES(0,'Serena','','Williams','female','1','23','1975','234 Wimbeldon St','','','CA','92104','123','123','1234','jrobeson@yahoo.com','adult','novice','kidszz.jpg','none');
+INSERT INTO person VALUES(0,'Gerado','','Snookie','male','11','15','2002','3456 30th St','','San Diego','CA','92104','123','123','1234','jrobeson@yahoo.com','teen','novice','sillysocky.jpg','none');
